@@ -1,0 +1,16 @@
+• –touch : fonction qui reçoit des noms de fichiers C en argument. Pour chaque fichier, on
+vérifie son existence, le met à la date courante et affiche le nom du fichier (sans extension) avec sa date de modification.
+• --clean : fonction qui reçoit des noms de fichiers C en argument. Pour chaque fichier, on
+vérifie son existence, supprime le nom de l’exécutable correspondant.
+• --cc : fonction qui reçoit des noms de fichiers C en argument. Pour chaque fichier, on vérifie son existence, puis compile le fichier C avec gcc, en lui fournissant selon les flags les options nécessaires (-g ou -O2 ou -Wall -W, voir rappels). 🤔️n'est Pas clair
+• --debug : évoquer l’option –g de gcc  
+• --warni : évoquer l’option -W de gcc  🤔️Problémes 
+• -g : activer un menu graphique 😀️!!Manquant
+
+
+
+• -h: Pour afficher le help détaillé à partir d’un fichier texte
+• -g: Pour afficher un menu textuel et gérer les fonctionnalité de façon
+graphique(Utilisation de YAD).  😀️!!Manquant
+• -v: Pour afficher le nom des auteurs et version du code.
+• -m: Pour afficher un menu textuel

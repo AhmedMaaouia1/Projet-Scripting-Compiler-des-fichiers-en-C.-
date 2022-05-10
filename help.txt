@@ -1,0 +1,5 @@
+   les différentes utilisations du script, qui sont :
+compiler.bash -h|--help
+compiler.bash --touch|--clean fichier.c ...
+compiler.bash [option ...] --cc fichier.c ... où option est --debug|--optim|--warni
+compiler.bash -g

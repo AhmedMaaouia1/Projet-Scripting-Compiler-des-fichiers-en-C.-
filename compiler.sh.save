@@ -1,0 +1,57 @@
+#!/bin/bash 
+source fonction.sh 
+exist=0  
+#ext=0
+
+#verif_fichier
+
+
+if [ $# 
+
+while getopts "hvmg:d:w:o:c:t:r:" option
+do
+case $option in
+h)
+h=${OPTARG}
+helpp 
+;; 
+v)
+v=${OPTARG} 
+auteurs
+;;
+m)
+m=${OPTARG}
+menutxt filee
+;;
+g)
+g=${OPTARG}
+yadd $2
+;; 
+d)
+d=${OPTARG} 
+debug
+;;
+w)
+w=${OPTARG}
+warni
+;;
+o)
+o=${OPTARG}
+optim
+;;
+c)
+c=${OPTARG}
+clean 
+;;
+t)
+t=${OPTARG}
+touchh
+;;
+r)
+r=${OPTARG}
+compiler
+;;
+*) 
+show_usage 
+esac 
+done
